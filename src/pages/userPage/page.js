@@ -1,4 +1,4 @@
-import MyPage from '../userPage/components/MyPage'
+import MyPage from './components/MyPage'
 
 export default () => {
     return (

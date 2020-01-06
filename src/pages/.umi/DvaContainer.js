@@ -10,9 +10,10 @@ let app = dva({
 window.g_app = app;
 app.use(createLoading());
 
-app.model({ ...(require('D:/前端知识学习/UmiDvaTest/userForTest/src/models/example.js').default) });
-app.model({ ...(require('D:/前端知识学习/UmiDvaTest/userForTest/src/pages/userPage/models/userpage.js').default) });
-app.model({ ...(require('D:/前端知识学习/UmiDvaTest/userForTest/src/pages/users/models/users.js').default) });
+app.model({ ...(require('D:/前端知识学习/UmiDvaTest/userForTest/zyqResp/src/models/example.js').default) });
+app.model({ ...(require('D:/前端知识学习/UmiDvaTest/userForTest/zyqResp/src/pages/tree/models/usertree.js').default) });
+app.model({ ...(require('D:/前端知识学习/UmiDvaTest/userForTest/zyqResp/src/pages/userPage/models/userpage.js').default) });
+app.model({ ...(require('D:/前端知识学习/UmiDvaTest/userForTest/zyqResp/src/pages/users/models/users.js').default) });
 
 class DvaContainer extends Component {
   render() {

@@ -36,7 +36,7 @@ if (module.hot) {
   });
 }
 
-require('D:/前端知识学习/UmiDvaTest/userForTest/src/global.css');
+require('D:/前端知识学习/UmiDvaTest/userForTest/zyqResp/src/global.css');
 // Enable service worker
 if (process.env.NODE_ENV === 'production') {
   require('./registerServiceWorker');

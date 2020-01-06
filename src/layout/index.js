@@ -26,6 +26,9 @@ function Layouts({ children,location }) {
                         <Menu.Item key="/userPage">
                         <Link to="/userPage"><Icon type="usergroup-delete" />pagination</Link>
                         </Menu.Item>
+                        <Menu.Item key="/tree">
+                        <Link to="/tree"><Icon type="caret-down" />tree</Link>
+                        </Menu.Item>
                         <Menu.Item key="/grid">
                         <Link to="/grid"><Icon type="column-width" />Grid</Link>
                         </Menu.Item>
