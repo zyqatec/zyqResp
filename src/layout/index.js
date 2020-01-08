@@ -24,10 +24,13 @@ function Layouts({ children,location }) {
                         <Link to="/users"><Icon type="user" />Users</Link>
                         </Menu.Item>
                         <Menu.Item key="/userPage">
-                        <Link to="/userPage"><Icon type="usergroup-delete" />pagination</Link>
+                        <Link to="/userPage"><Icon type="usergroup-delete" />Pagination</Link>
                         </Menu.Item>
                         <Menu.Item key="/tree">
-                        <Link to="/tree"><Icon type="caret-down" />tree</Link>
+                        <Link to="/tree"><Icon type="caret-down" />Tree</Link>
+                        </Menu.Item>
+                        <Menu.Item key="/map">
+                        <Link to="/map"><Icon type="column-width" />Map</Link>
                         </Menu.Item>
                         <Menu.Item key="/grid">
                         <Link to="/grid"><Icon type="column-width" />Grid</Link>

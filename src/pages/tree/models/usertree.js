@@ -11,7 +11,7 @@ export default {
   namespace: 'usertree',
   state: {
     list: [],
-    currentId:null,
+    currentId:1,
   },
   reducers: {
     updateState(state,{payload:{data:list}}) {     
